@@ -5,5 +5,13 @@
 .card{
     width: 300px;
     border: 5px solid black;
-    margin: 5PX;
+    margin: 2px;
+}
+
+/* .table{
+    border: 2px solid black;
+} */
+
+.cell{
+    border: 2px solid black;
 }
