@@ -1,0 +1,37 @@
+body{
+    margin:0;
+}
+
+.header-login{
+    display: flex;
+    justify-content: right;
+    background-color: rgb(76, 101, 165, 255);
+    width:100%;
+    height: 100px;
+}
+
+.email-login{
+    color: white;
+    margin-top: 10px;
+    margin-right: 5px;
+}
+
+.pass-login{
+    color: white;
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.login-btn{
+    margin-top: 30px;
+    margin-left: 5px;
+    min-width: 60px;
+}
+
+.form{
+    display: flex;
+    margin-right: 50px;
+}
+
+
