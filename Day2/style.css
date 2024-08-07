@@ -24,7 +24,8 @@ body{
 }
 
 .login-btn{
-    margin-top: 30px;
+
+    margin-top: 27px;
     margin-left: 5px;
     min-width: 60px;
 }
@@ -32,6 +33,15 @@ body{
 .form{
     display: flex;
     margin-right: 50px;
+}
+
+#sub{
+    background-color: rgb(57, 84, 171);
+    color: white;
+    border: 1px solid white;
+    border-radius: 2px;
+    height: 23px;
+    
 }
 
 
