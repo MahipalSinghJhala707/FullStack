@@ -67,13 +67,12 @@ body{
 }
 
 .boxes-inp{
-    padding: 2px;
     border: 1px solid  ;
     min-height: 15vh;
 }
 
 .inp-box{
-    margin:3px;
+    margin:3px 3px 3px 0px;
     border: 1px solid rgba(56, 55, 55, 0.739);
     padding: 2px;
     border-radius: 3px;
@@ -109,4 +108,14 @@ body{
     margin: 5px 5px 5px 0px;
     height: 3vh;
     width: 200px;
+}
+
+.link{
+    margin: 5px;
+    width: 150px;
+    font-size: 12px;
+}
+
+.cont2{
+    display: flex;
 }
