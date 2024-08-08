@@ -24,10 +24,9 @@ body{
 }
 
 .login-btn{
-
     margin-top: 27px;
     margin-left: 5px;
-    min-width: 60px;
+    min-width: 50px;
 }
 
 .form{
@@ -36,11 +35,35 @@ body{
 }
 
 #sub{
-    background-color: rgb(57, 84, 171);
+    background-color: rgb(22, 49, 140);
     color: white;
-    border: 1px solid white;
+    font-weight: bold;
+    border: none;
     border-radius: 2px;
-    height: 23px; 
+    height: 23px;
+}
+
+.nested_create-acc{
+    border: 2px solid black;
+    min-height: 70vh;
+}
+
+.create-acc{
+    display: flex;
+    justify-content: right;
+    margin-right: 60px;
+    min-height: 70vh;
+}
+
+.heading-create{
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.heading-small{
+    font-family: sans-serif;
+    font-weight: 200;
+    color: rgba(0, 0, 0, 0.563);
+    margin-bottom: 10px;
 }
 
 
