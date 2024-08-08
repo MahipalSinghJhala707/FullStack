@@ -62,8 +62,51 @@ body{
 .heading-small{
     font-family: sans-serif;
     font-weight: 200;
-    color: rgba(0, 0, 0, 0.563);
+    color: rgba(0, 0, 0, 0.795);
     margin-bottom: 10px;
 }
 
+.boxes-inp{
+    padding: 2px;
+    border: 1px solid  ;
+    min-height: 15vh;
+}
 
+.inp-box{
+    margin:3px;
+    border: 1px solid rgba(56, 55, 55, 0.739);
+    padding: 2px;
+    border-radius: 3px;
+    min-height: 3vh;
+    font-size: 18px;
+    font-family: sans-serif
+}
+
+#fname{
+    width: 180px;
+}
+
+#sname{
+    width: 180px;
+}
+
+#em{
+    width: 376px;
+}
+
+#passname{
+    width: 376px;
+}
+
+
+.heading-dob{
+    margin: 5px 5px 5px 0px;
+    font-family: sans-serif;
+    font-weight: 400;
+}
+
+#dob{
+    margin: 5px 5px 5px 0px;
+    height: 3vh;
+    width: 200px;
+}
