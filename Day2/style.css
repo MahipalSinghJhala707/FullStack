@@ -108,6 +108,8 @@ body{
     margin: 5px 5px 5px 0px;
     height: 3vh;
     width: 200px;
+    font-size: large;
+    font-family: sans-serif;
 }
 
 .link{
@@ -118,4 +120,13 @@ body{
 
 .cont2{
     display: flex;
+}
+
+.gen{
+    height: 5vh;
+    display: inline-block;
+    font-size: large;
+    font-family: sans-serif;
+    font-weight: 500;
+    margin-top: 10px;
 }
