@@ -5,20 +5,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>table</title>
     <style>
-
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        table{
+            width: 100%;
+            border-collapse: collapse;
+            
+        }
+        #head{
+            background-color: black;
+            color: white;
+            height:40px;
+        }
+        #name{
+            width:60vw;
+        }
+        th{
+            width: 10vw;
+            text-align: center;
+        }
+        td{
+            text-align: center;
+        }
+        tr:nth-child(odd){
+            background-color: rgba(245, 255, 220, 1);
+        }
     </style>
 </head>
 <body>
     <table>
-
-        <tbody><tr>
-            <th>Nam</th>
-            <th>Wins</th>
-            <th>Draws</th>
-            <th>Losses</th>
-            <th>Total</th>
-        </tr>
-
+        <thead>
+            <tr id="head">
+                <th id="name">Name</th>
+                <th>Wins</th>
+                <th>Draws</th>
+                <th>Losses</th>
+                <th>Total</th>
+            </tr>
+        </thead>
+        
+        <tbody>
         <tr>
             <td>Dick</td>
             <td>1</td>
