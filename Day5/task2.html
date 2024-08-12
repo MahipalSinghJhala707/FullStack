@@ -8,7 +8,6 @@
         *{
             margin: 0;
             padding: 0;
-            /* color: white;+ */
         }
         body{
             height: 100vh;
@@ -19,10 +18,12 @@
         .container{
             background-image: url(zomato.jpg);
             background-size: cover;
-            height: 50vh;
+            background-position: center;
+            height: 30vh;
             width: 90vw;
             min-width: fit-content;
             display: flex;
+            flex-direction: column;
             justify-content: center;
             align-items: center;
         }
@@ -30,41 +31,72 @@
         #loc-img{
             height: 20px;
             width: 23px;
+            
         }
         #city{
             border: none;
             font-size: small;
+            width: 150px;
+            opacity: 0.8;
         }
         #search{
             border: none;
             font-size: small;
-            width:260px;
+            width:400px;
+            min-width: 150px;
+            
         }
         .form{
+            padding-left: 5px;
             background-color: white;
-            border-radius: 5px;
+            border-radius: 6px;
             height: 40px;
             width: fit-content;
             display: flex;
-            justify-content: center;
+            /* justify-content: center; */
             align-items: center;
         }
 
         #danda{
+            margin-right: 5px;
+            margin-left: 5px;
             padding-bottom: 2px;
             font-weight: bolder;
             font-size: large;
+            opacity: 0.8;
         }
+        h3{
+            color: white;
+            display: flex;
+            justify-content: center;
+            margin: 5px 0px 20px 0px;
+            font-size: x-large;
+            font-family: sans-serif;
+            font-weight: 400;
+            opacity: 0.9;
+            
+        }
+        .logo{
+            height: 40px;
+            width: 180px;
+            padding-top: 5px;
+        }
+        .S{
+            opacity: 0.6;
+            margin-right: 5px;
+        }
+        
+
 
     </style>
 </head>
 <body>
     <div class="container">
-        <div class="image">
-            <h1>ZOMATO</h1>
+    
+            <img src="zomato-removebg.png" alt="zomato" class="logo">
             <h3>Discover the best food & drinks in Lucknow</h3>
             <form action="" class="form">
-                <img src="location.png" alt="x" id="loc-img">
+                <label for="city"><img src="location.png" alt="x" id="loc-img"></label>
                 <select name="city" id="city">
                     <option value="Lucknow">Lucknow</option>
                     <option value="Lucknow">Lucknow</option>
@@ -72,9 +104,10 @@
                     <option value="Lucknow">Lucknow</option>
                 </select>
                 <p id="danda">|</p>
+                <label for="search"><img src="icons8-search.svg" alt="x" id="loc-img" class="S"></label>
                 <input type="text" placeholder="Search for the restaurant, cuisine or a dish" id="search">
             </form>
-        </div>
+        
     </div>
 </body>
 </html>
