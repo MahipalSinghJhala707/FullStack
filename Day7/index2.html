@@ -23,6 +23,7 @@
           height: 90vh;
         }
         .team{
+          margin-top: 20px;
           color: rgb(103, 62, 218);
         }
         .cont{
@@ -33,7 +34,17 @@
           flex-direction: column;
         }
         .text1{
-          font-size: large;
+          font-size: x-large;
+          margin: 10px 0px 20px 0px;
+        }
+        .bigdiv{
+          display: flex;
+          
+        
+        }
+        .card{
+          margin: 0;
+          width: 25vw;
         }
         
     </style>
@@ -111,16 +122,13 @@
       </div>
 
       <!-- Cards -->
-      <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="row row-cols-1 row-cols-md-3 g-4 bigdiv">
         <div class="col">
           <div class="card h-100">
             <img src="..." class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Card title</h5>
               <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-            </div>
-            <div class="card-footer">
-              <small class="text-body-secondary">Last updated 3 mins ago</small>
             </div>
           </div>
         </div>
@@ -131,8 +139,14 @@
               <h5 class="card-title">Card title</h5>
               <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
             </div>
-            <div class="card-footer">
-              <small class="text-body-secondary">Last updated 3 mins ago</small>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
             </div>
           </div>
         </div>
@@ -141,11 +155,12 @@
             <img src="..." class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+              <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
             </div>
-            <div class="card-footer">
-              <small class="text-body-secondary">Last updated 3 mins ago</small>
-            </div>
+          </div>
+        </div>
+        
+              </div>
           </div>
         </div>
       </div>
