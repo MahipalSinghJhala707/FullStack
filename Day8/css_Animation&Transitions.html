@@ -24,9 +24,18 @@
             display: flex;
             align-items: center;
             justify-content: center;
+            /* transition-property: transform; this defines which property should have transition applied to */
+            /* transition-duration: 0.5s; defines how long the transition should take */
+            /* transition-timing-function: ease-in; takes values like ease in and ease out meaning time function of transition */
+            /* transition-delay: 0s;Defines the delay before the transition should take place  */
+            /* transition: transform 0.5s, background-color 0.5s, color 0.5s; */
+            transition: all 0.5s;
+
         }
         .btn:hover{
-            background-color: blueviolet;
+            transform: translateY(-10px);
+            background-color: rgba(188, 71, 234, 0.71);
+            color: white;
         }
     </style>
 </head>
