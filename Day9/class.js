@@ -93,31 +93,24 @@ const country={
     
     // const objectValues = Object.values(country);
     // console.log(objectValues);
-    const country2={
-        language : 'english'
-    }
+    // const country2={
+    //     language : 'english'
+    // }
     
-    Object.assign(country,country2);
-    console.log(country);
-    const country3={
-        language : 'hindi'
-    }
-    Object.assign(country,country3);
-    console.log(country);
-    
-    
+    // Object.assign(country,country2);
+    // console.log(country);
+    // const country3={
+    //     language : 'hindi'
+    // }
+    // Object.assign(country,country3);
+    // console.log(country);
     
 
+    const pro =['tv','mobile', 10];
+    const [tv ,mobile ,shirt] = pro;
+    console.log(pro);
+    console.log(tv);
+    console.log(mobile);
+    console.log(shirt);
 
-
-
-
-
-
-
-
-
-
-
-
-
+    
