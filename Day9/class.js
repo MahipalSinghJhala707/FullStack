@@ -67,6 +67,16 @@ console.log(arr);
 
 // console.log(console.log("hello, World!"));
 
+// Note - REDUCE METHOD(Higher Order method)
+// Note - used to reduce the array into a single value (sum kerne ke kaam me aajayegi ye method)
+
+// const reduceOutput= arr.reduce((sum,i)=>{
+//     return sum+i;
+// },0)
+
+// console.log(reduceOutput);
+
+
 
 
 
