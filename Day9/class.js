@@ -76,9 +76,37 @@ console.log(arr);
 
 // console.log(reduceOutput);
 
+// object.keys()
 
+const country={
+    name : 'India',
+    capital : 'New Delhi'
+}
 
+// const objectKeys = Object.keys(country);
 
+// objectKeys.forEach((key)=>{
+    //     console.log(`${key} => ${country[key]}`)
+    // })
+    
+    // Object.values()
+    
+    // const objectValues = Object.values(country);
+    // console.log(objectValues);
+    const country2={
+        language : 'english'
+    }
+    
+    Object.assign(country,country2);
+    console.log(country);
+    const country3={
+        language : 'hindi'
+    }
+    Object.assign(country,country3);
+    console.log(country);
+    
+    
+    
 
 
 
