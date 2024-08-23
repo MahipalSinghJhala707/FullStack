@@ -14,6 +14,5 @@ else if(x%2==1) {
     console.log("odd");
 }
 else{
-    console.log("Invalid input :(");
-    
+    console.log("Invalid input :(");   
 }
