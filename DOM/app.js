@@ -61,4 +61,24 @@ console.log(a);
 a.href = 'https://www.amazon.com';
 console.log(a);
 
+// NOTE changing style using JS
+console.log(heading.style);
+heading.style.color = 'green';
+heading.style.fontSize = '30px';
+heading.style.textDecoration = 'underline';
+
+// Changing attributes using JS
+const input = document.querySelector('#bear');
+input.setAttribute('placeholder','yoyooooooooo');
+console.log(input.getAttribute('placeholder'));
+
+
+const m1 = document.createElement('h1');
+
+const container = document.querySelector('#container');
+
+m1.innerText= 'mahipal';
+container.append(m1);
+
+
 
