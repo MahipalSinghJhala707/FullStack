@@ -3,7 +3,7 @@
 
 // SELECT THE ELEMENT
 // document.getElementById
-// const heading = document.getElementById('heading');
+const heading = document.getElementById('heading');
 // console.log(heading);
 // console.dir(heading);
 
@@ -41,3 +41,24 @@ console.log(list3.forEach((Element)=>{
 
 // READING TEXT FROM ELEMENTS
 // innerText textContent innerHTML properties
+
+heading.textContent = 'dom';
+console.log(document.body.textContent);
+console.log(document.body.innerText);
+console.log(heading.textContent);
+heading.innerText = 'dom2';
+
+heading.innerHTML=`<h1>yo</h1>`;
+console.log(heading);
+console.log(heading.innerHTML);
+
+// note innerHTML overwrites the the content
+
+const a = document.querySelector('#address');
+console.dir(a);
+console.log(a);
+
+a.href = 'https://www.amazon.com';
+console.log(a);
+
+
