@@ -17,3 +17,4 @@ reset.onclick = function () {
     count=0;
     heading.textContent=count;
 }
+  
