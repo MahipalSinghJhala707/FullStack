@@ -43,4 +43,4 @@ fs.appendFile('index.txt', ' adding using append', ()=>{
 })
 
 
-fs.renameSync('index.txt','demo.txt')
+fs.renameSync('Node_tut/index.txt','Node_tut/demo.txt')
