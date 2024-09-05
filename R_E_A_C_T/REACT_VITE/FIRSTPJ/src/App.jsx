@@ -3,7 +3,7 @@ import { useState } from 'react'
 import './App.css'
 
 import Button from './Components/Button'
-
+import TestButton from './Components/testButton'
 
 function App() {
   
@@ -21,7 +21,7 @@ function App() {
           <label htmlFor="userName">Username</label>
           <input type="text" name="userName" id="userName" />  
         </form> */}
-        <TestButton sample="yo"/>
+        <TestButton sample="yo"/> 
         <Button text="click"/>
     </div>
   )
