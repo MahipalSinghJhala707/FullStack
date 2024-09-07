@@ -26,7 +26,3 @@ console.log(myDate2.toLocaleString('default', {
     // dateStyle:"full"
 
 }));
-
-
-
-
