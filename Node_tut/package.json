@@ -9,8 +9,8 @@
     "nodemon": "^3.1.4"
   },
   "scripts": {
-    "chalu": "nodemon app.js",
-    "start": "nodemon server.js",
+    "start": "nodemon app.js",
+    "chalu": "nodemon server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
