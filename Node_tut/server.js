@@ -2,6 +2,7 @@ const { log } = require('console');
 const http = require('http');
 const path = require('path');
 const fs= require('fs');
+const EventEmitter = require('events');
 
 
 const server = http.createServer((req,res)=>{
@@ -48,3 +49,4 @@ server.listen(3000,()=>{
 
 
 //TODO http , http  status code , request and response object , http methods , response , request cycle , web server , request and response headers
+
