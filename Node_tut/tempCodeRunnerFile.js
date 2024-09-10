@@ -1,3 +1,5 @@
-// fs.readFile('./Node_tut/index.txt', 'utf-8', (err,data)=>{
-// console.log(data)
+// app.listen(
+//     3000,
+//     ()=>{
+//         console.log("Server is stared");
 // })
