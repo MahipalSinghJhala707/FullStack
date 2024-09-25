@@ -44,7 +44,7 @@ body{
 }
 
 .nested_create-acc{
-    border: 2px solid black;
+    /* border: 2px solid black; */
     min-height: 70vh;
 }
 
