@@ -9,17 +9,17 @@ const product = require('./product')
 app.use(express.json())
 
 
-app.post('/api/v1/addproduct', (req,res)=>{
-  const newData = req.body
-  newData.id = product.length + 1;
-  product.push(newData)
-  res.json(
-        {
-          data : product
-        }
-      )
-    }
-    )
+// app.post('/api/v1/addproduct', (req,res)=>{
+//   const newData = req.body
+//   newData.id = product.length + 1;
+//   product.push(newData)
+//   res.json(
+//         {
+//           data : product
+//         }
+//       )
+//     }
+//     )
 
 // app.get('/api/v1/singleproduct/:id', (req,res)=>{
 //   const id = parseInt(req.params.id)
@@ -47,9 +47,9 @@ app.post('/api/v1/addproduct', (req,res)=>{
 
 
 
-// app.get('/about', (req,res)=>{
-//      res.render('about')
-// })
+app.get('/about', (req,res)=>{
+     res.render('about')
+})
 
 // app.post('/about', (req, res) => {
 //     // const newUser = req.body; // Get data sent in the request body
